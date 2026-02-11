@@ -886,6 +886,7 @@ void FileSystemDock::_tree_thumbnail_done(const String &p_path, const Ref<Textur
 }
 
 Ref<Texture2D> FileSystemDock::_apply_thumbnail_filter(const Ref<Texture2D> &p_thumbnail, const String &p_file_path) const {
+	/*
 	if (!p_file_path.is_empty()) {
 		int index;
 		EditorFileSystemDirectory *dir = EditorFileSystem::get_singleton()->find_file(p_file_path, &index);
@@ -908,6 +909,7 @@ Ref<Texture2D> FileSystemDock::_apply_thumbnail_filter(const Ref<Texture2D> &p_t
 			}
 		}
 	}
+	*/
 
 	return p_thumbnail;
 }
