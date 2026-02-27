@@ -49,6 +49,7 @@
 #include "scene/gui/progress_bar.h"
 #include "scene/gui/tab_container.h"
 #include "scene/gui/tree.h"
+#include "servers/rendering/rendering_server.h"
 
 const char *FindInFiles::SIGNAL_RESULT_FOUND = "result_found";
 
